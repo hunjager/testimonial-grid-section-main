@@ -2,6 +2,8 @@
 body{
     background-color: hsl(210, 46%, 95%);
     display: grid;
+    padding: 0;
+    margin: 0;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -46,7 +48,7 @@ div.innertwo{
     background-color: hsl(263, 55%, 52%);
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position-x: 330px;
+    background-position-x: 331px;
 }
 #one h3{
     width: 450px;
@@ -86,11 +88,7 @@ div.innertwo{
     display: flex;
     align-items: center;
 }
-#quote{
-    position:absolute;
-    margin-left: 250px;
-    opacity: 0.7;
-}
+
 h4{
     margin-left: 10px;
     font-size: 13px;
@@ -102,6 +100,9 @@ h3{
 #one p{
     width: 470px;
     color:hsl(0, 0%, 81%,70%);
+}
+#one h3{
+    width: 450px;
 }
 #four h3{
      width: 450px;
@@ -117,6 +118,9 @@ h3{
     width: 160px;
     color:hsl(217, 19%, 35%);
 }
+#five h3{
+    color:hsl(217, 19%, 35%);
+}
 #one h4 article, #two h4 article,#four h4 article{
     color: hsl(0, 0%, 81%);
 }
@@ -126,7 +130,7 @@ h3{
 #two p, #three p,#four p{
     color:hsl(0, 0%, 81%,70%);
 }
-#three h4 article,#three h4 article{
+#three h4 article,#five h4 article{
     color: hsl(217, 19%, 35%);
 }
 #three h4 span,#five h4 span{
