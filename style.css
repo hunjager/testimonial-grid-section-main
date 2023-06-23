@@ -48,11 +48,10 @@ div.innertwo{
     background-color: hsl(263, 55%, 52%);
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position-x: 331px;
+    background-position-x: 335px;
 }
 #one h3{
     width: 450px;
-    text-justify:distribute;
     color: hsl(0, 0%, 100%);
 }
 #two{
