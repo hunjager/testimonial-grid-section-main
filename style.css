@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: grid;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+p{
+    font-size: 13px;
+}
+.main{
+    display: grid;
+    grid-auto-flow: column;
+    align-content: center;
+    justify-items: center;
+}
+div.innerone{
+    display: grid;
+    grid-auto-flow: column;
+}
+div.innertwo{
+    margin-top:15px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#one,#four{
+    width:470px;
+    border-radius: 0.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 20px; 
+    padding-bottom: 20px; 
+    padding-top: 5px;
+}
+#two,#three,#five{
+    width: 190px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.5rem;
+    line-height: 20px;  
+    padding-top: 5px;
+}
+#one{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 335px;
+}
+#one h3{
+    width: 450px;
+    color: hsl(0, 0%, 100%);
+}
+#two{
+    background-color: hsl(217, 19%, 35%);
+}
+
+#three,#five{
+    background-color: hsl(0, 0%, 100%);
+}
+#four{
+    background-color: hsl(219, 29%, 14%);
+}
+#two,#four,#five{
+    margin-left: 20px;
+}
+#profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 1.5rem;
+    padding: 3px;
+    
+}
+#one #profile{
+    background-color: hsl(0, 0%, 81%,50%);
+}
+#four #profile{
+    background-color:hsl(263, 55%, 52%);
+}
+#two #profile{
+    background-color: hsl(217, 19%, 35%,50%);
+}
+#head{
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    margin-left: 10px;
+    font-size: 13px;
+}
+h3{
+    margin-top: -3px;
+    line-height: 25px;
+}
+#one p{
+    width: 470px;
+    color:hsl(0, 0%, 81%,70%);
+}
+#one h3{
+    width: 450px;
+}
+#four h3{
+     width: 450px;
+     color: hsl(0, 0%, 100%);
+}
+#two h3{
+    color: hsl(0, 0%, 100%);
+}
+#four p{
+    width: 470px;
+}
+#three h3{
+    width: 160px;
+    color:hsl(217, 19%, 35%);
+}
+#five h3{
+    color:hsl(217, 19%, 35%);
+}
+#one h4 article, #two h4 article,#four h4 article{
+    color: hsl(0, 0%, 81%);
+}
+#one h4 span,#two h4 span, #three h4 span,#four h4 span{
+    color: hsl(0, 0%, 81%,50%);
+}
+#two p, #three p,#four p{
+    color:hsl(0, 0%, 81%,70%);
+}
+#three h4 article,#five h4 article{
+    color: hsl(217, 19%, 35%);
+}
+#three h4 span,#five h4 span{
+    color: hsl(217, 19%, 35%,50%)
+}
+#three p, #five p{
+    color:hsl(217, 19%, 35%,70%);
+}
+
+@media (max-width: 900px){
+    .main{
+        display: grid;
+        grid-auto-flow: row;
+        align-content: center;
+        justify-items: center;
+        width: 20%;
+    }
+    #one,#two,#three,#four, #five{
+        width: 60vw;
+        margin-top: 5%;
+        margin-left: 0;
+    }
+    #one p,#two p,#three p,#four p, #five p{
+        width: 100%;
+    }
+    #one h3, #two h3,#three h3, #four h3, #five h3{
+        width: 100%;
+    }
+    div.innerone{
+        display: grid;
+        grid-auto-flow: row;
+        align-content: center;
+        justify-items: center;
+    }
+    div.innertwo{
+        display: grid;
+        grid-auto-flow: row;
+        align-content: center;
+        justify-items: center;
+        margin-top: 0;
+    }
+    #five{
+        margin-bottom: 20px;
+    }
+    #one{
+        background-image: url(images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+    }
+}
